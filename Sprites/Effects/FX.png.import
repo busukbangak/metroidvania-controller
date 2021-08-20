@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/FX.png-d1d73c39d78f4a71626150c0a6066086.res"
+group_file="res://Sprites/Effects/FX_Atlas.png"
+valid=true
+[deps]
+
+
+source_file="res://Sprites/Effects/FX.png"
+dest_files=[ "res://.import/FX.png-d1d73c39d78f4a71626150c0a6066086.res" ]
+
+[params]
+
+atlas_file="res://Sprites/Effects/FX_Atlas.png"
+import_mode=0

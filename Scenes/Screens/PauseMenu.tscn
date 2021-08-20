@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Fonts/shicarego.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scripts/Screens/PauseMenu.cs" type="Script" id=2]
+
+[node name="PauseMenu" type="CanvasLayer" groups=[
+"Screen",
+]]
+pause_mode = 2
+script = ExtResource( 2 )
+
+[node name="PauseMenuContainer" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Overlay" type="ColorRect" parent="PauseMenuContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.235294 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="PauseMenuContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="PauseMenuContainer/CenterContainer"]
+margin_left = 608.0
+margin_top = 480.0
+margin_right = 1312.0
+margin_bottom = 600.0
+custom_fonts/font = ExtResource( 1 )
+text = "game paused"

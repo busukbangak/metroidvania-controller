@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Autoload/Managers/UIManager.cs" type="Script" id=1]
+[ext_resource path="res://Scripts/Autoload/Managers/WorldManager.cs" type="Script" id=2]
+[ext_resource path="res://Scripts/Autoload/Managers/AudioManager.cs" type="Script" id=3]
+[ext_resource path="res://Scripts/Autoload/Managers/DebugManager.cs" type="Script" id=4]
+
+[node name="Managers" type="Node"]
+pause_mode = 2
+
+[node name="UIManager" type="Node" parent="."]
+script = ExtResource( 1 )
+
+[node name="DebugManager" type="Node" parent="."]
+script = ExtResource( 4 )
+
+[node name="WorldManager" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="AudioManager" type="Node" parent="."]
+script = ExtResource( 3 )

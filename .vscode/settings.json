@@ -1,0 +1,25 @@
+{
+  "godot_tools.editor_path": "c:\\Users\\awanali\\AppData\\Roaming\\Godot\\Godot_v3.2.3-stable_mono_win64.exe",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Properties": true,
+    "**/.import": true,
+    "**/.mono": true,
+    "**/._*": true,
+    ".vscode": true,
+    "Models": true,
+    "Media": true,
+    "Materials": true,
+    "Fonts": true,
+    "Audio": true,
+    "Animations": true,
+    "Sprites": true,
+    "Shaders": true,
+    "Scenes": true,
+    "logs": true,
+    "Scenes\\Characters\\Player": true
+  }
+}

@@ -1,0 +1,30 @@
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.deps.json
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\bin\ExportDebug\ref\short-quest-metroidvania.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.pdb
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csprojAssemblyReference.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csproj.CoreCompileInputs.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\obj\ExportDebug\ref\short-quest-metroidvania.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\games\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.pdb
+D:\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.deps.json
+D:\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.dll
+D:\short-quest-metroidvania\.mono\temp\bin\ExportDebug\ref\short-quest-metroidvania.dll
+D:\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.pdb
+D:\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csprojAssemblyReference.cache
+D:\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.GeneratedMSBuildEditorConfig.editorconfig
+D:\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csproj.CoreCompileInputs.cache
+D:\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.dll
+D:\short-quest-metroidvania\.mono\temp\obj\ExportDebug\ref\short-quest-metroidvania.dll
+D:\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.pdb
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.deps.json
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.dll
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\bin\ExportDebug\ref\short-quest-metroidvania.dll
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\bin\ExportDebug\short-quest-metroidvania.pdb
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csprojAssemblyReference.cache
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csproj.CoreCompileInputs.cache
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.dll
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\ref\short-quest-metroidvania.dll
+C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.pdb
