@@ -12,16 +12,16 @@ Prototype showcasing a 2D Platformer controller using a finite statemachine in G
 * Walk
 * Run
 * Jump
-   * WallJump
-   * AirJump
+    * WallJump
+    * AirJump
 * Fall
 * WallSlide
 * Crouch
 * Hanging
 * BowAttack
-   * AirBowAttack
+    * AirBowAttack
 * SwordAttack
-   * AirSwordAttack
+    * AirSwordAttack
 * Hurt (Not implemented yet)
 * Dash
 * Dead (Not Implemented yet)
