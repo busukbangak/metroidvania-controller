@@ -1,5 +1,3 @@
-
-# 2D metroidvania
 ## Preview
 
 ![preview](2d-metroidvania.gif)
