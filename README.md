@@ -2,7 +2,7 @@
 # 2D metroidvania
 ## Preview
 
-<img src="2d-metroidvania.gif" width="480">
+![preview](2d-metroidvania.gif)
 
 ## Description
 Prototype showcasing a 2D Platformer controller using a finite statemachine in Godot C#.
