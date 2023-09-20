@@ -1,5 +1,3 @@
 [gd_scene format=2]
 
-[node name="SplashScreen" type="CanvasLayer" groups=[
-"Screen",
-]]
+[node name="SplashScreen" type="CanvasLayer" groups=["Screen"]]

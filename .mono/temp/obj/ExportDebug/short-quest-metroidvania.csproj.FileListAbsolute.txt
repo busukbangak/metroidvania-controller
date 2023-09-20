@@ -28,3 +28,13 @@ C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\sho
 C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.dll
 C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\ref\short-quest-metroidvania.dll
 C:\Users\awanali\Desktop\short-quest-metroidvania\.mono\temp\obj\ExportDebug\short-quest-metroidvania.pdb
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\bin\ExportDebug\short-quest-metroidvania.deps.json
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\bin\ExportDebug\short-quest-metroidvania.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\bin\ExportDebug\short-quest-metroidvania.pdb
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csproj.AssemblyReference.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\ExportDebug\short-quest-metroidvania.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\ExportDebug\short-quest-metroidvania.csproj.CoreCompileInputs.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\ExportDebug\short-quest-metroidvania.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\ExportDebug\refint\short-quest-metroidvania.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\ExportDebug\short-quest-metroidvania.pdb
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\ExportDebug\ref\short-quest-metroidvania.dll

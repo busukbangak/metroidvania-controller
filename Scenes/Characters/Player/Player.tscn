@@ -112,14 +112,44 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 38 ), ExtResource( 39 ) ],
+"frames": [ ExtResource( 54 ), ExtResource( 55 ), ExtResource( 53 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 56 ) ],
+"loop": false,
+"name": "air_bow_attack",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 86 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 92 ) ],
+"loop": false,
+"name": "air_sword_attack_1",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ) ],
+"loop": false,
+"name": "air_sword_attack_2",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 94 ), ExtResource( 93 ) ],
+"loop": false,
+"name": "air_sword_attack_3",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 96 ), ExtResource( 95 ), ExtResource( 97 ) ],
+"loop": false,
+"name": "air_sword_attack_4",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 44 ) ],
 "loop": true,
-"name": "slide",
+"name": "block",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ) ],
-"loop": true,
-"name": "idle",
+"frames": [ ExtResource( 62 ), ExtResource( 60 ), ExtResource( 65 ), ExtResource( 59 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 61 ) ],
+"loop": false,
+"name": "bow_attack",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 35 ), ExtResource( 37 ), ExtResource( 33 ), ExtResource( 36 ), ExtResource( 34 ) ],
+"loop": false,
+"name": "climb",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 43 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ) ],
@@ -132,34 +162,14 @@ animations = [ {
 "name": "crouch_walk",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 54 ), ExtResource( 55 ), ExtResource( 53 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 56 ) ],
-"loop": false,
-"name": "air_bow_attack",
-"speed": 12.0
-}, {
-"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 14 ) ],
-"loop": false,
-"name": "jump",
-"speed": 15.0
-}, {
-"frames": [ ExtResource( 82 ), ExtResource( 84 ), ExtResource( 74 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ) ],
-"loop": false,
-"name": "sword_attack_3",
-"speed": 15.0
-}, {
-"frames": [ ExtResource( 96 ), ExtResource( 95 ), ExtResource( 97 ) ],
-"loop": false,
-"name": "air_sword_attack_4",
-"speed": 15.0
-}, {
 "frames": [ ExtResource( 14 ) ],
 "loop": true,
 "name": "dash",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 30 ), ExtResource( 29 ), ExtResource( 31 ), ExtResource( 32 ) ],
-"loop": true,
-"name": "hanging",
+"frames": [ ExtResource( 107 ), ExtResource( 106 ), ExtResource( 108 ), ExtResource( 105 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 109 ) ],
+"loop": false,
+"name": "dead",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 4 ), ExtResource( 5 ) ],
@@ -167,19 +177,9 @@ animations = [ {
 "name": "fall",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 35 ), ExtResource( 37 ), ExtResource( 33 ), ExtResource( 36 ), ExtResource( 34 ) ],
-"loop": false,
-"name": "climb",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 73 ), ExtResource( 77 ), ExtResource( 72 ), ExtResource( 81 ), ExtResource( 83 ) ],
-"loop": false,
-"name": "sword_attack_1",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 107 ), ExtResource( 106 ), ExtResource( 108 ), ExtResource( 105 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 109 ) ],
-"loop": false,
-"name": "dead",
+"frames": [ ExtResource( 30 ), ExtResource( 29 ), ExtResource( 31 ), ExtResource( 32 ) ],
+"loop": true,
+"name": "hanging",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 100 ), ExtResource( 102 ), ExtResource( 101 ) ],
@@ -187,34 +187,44 @@ animations = [ {
 "name": "hurt",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 14 ) ],
+"loop": false,
+"name": "jump",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 16 ), ExtResource( 21 ), ExtResource( 17 ), ExtResource( 20 ), ExtResource( 18 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 38 ), ExtResource( 39 ) ],
+"loop": true,
+"name": "slide",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 27 ), ExtResource( 22 ), ExtResource( 26 ), ExtResource( 23 ) ],
 "loop": true,
 "name": "somersault",
 "speed": 10.0
+}, {
+"frames": [ ExtResource( 73 ), ExtResource( 77 ), ExtResource( 72 ), ExtResource( 81 ), ExtResource( 83 ) ],
+"loop": false,
+"name": "sword_attack_1",
+"speed": 20.0
 }, {
 "frames": [ ExtResource( 75 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 76 ), ExtResource( 80 ), ExtResource( 85 ) ],
 "loop": false,
 "name": "sword_attack_2",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ) ],
+"frames": [ ExtResource( 82 ), ExtResource( 84 ), ExtResource( 74 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ) ],
 "loop": false,
-"name": "air_sword_attack_2",
-"speed": 15.0
-}, {
-"frames": [ ExtResource( 94 ), ExtResource( 93 ) ],
-"loop": false,
-"name": "air_sword_attack_3",
-"speed": 15.0
-}, {
-"frames": [ ExtResource( 62 ), ExtResource( 60 ), ExtResource( 65 ), ExtResource( 59 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 61 ) ],
-"loop": false,
-"name": "bow_attack",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 86 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 92 ) ],
-"loop": false,
-"name": "air_sword_attack_1",
+"name": "sword_attack_3",
 "speed": 15.0
 }, {
 "frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 6 ) ],
@@ -225,16 +235,6 @@ animations = [ {
 "frames": [ ExtResource( 25 ), ExtResource( 24 ) ],
 "loop": true,
 "name": "wall_slide",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 44 ) ],
-"loop": true,
-"name": "block",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 16 ), ExtResource( 21 ), ExtResource( 17 ), ExtResource( 20 ), ExtResource( 18 ), ExtResource( 19 ) ],
-"loop": true,
-"name": "run",
 "speed": 5.0
 } ]
 
@@ -378,6 +378,7 @@ one_shot = true
 [node name="HurtTimer" type="Timer" parent="Timers"]
 wait_time = 0.5
 one_shot = true
+
 [connection signal="IsGrounded" from="." to="Camera2D" method="OnPlayerIsGrounded"]
 [connection signal="LookAheadVerticalDirection" from="." to="Camera2D" method="OnPlayerLookAheadVerticalDirection"]
 [connection signal="animation_finished" from="AnimatedSprite" to="." method="OnAnimatedSpriteAnimationFinished"]
@@ -386,5 +387,4 @@ one_shot = true
 [connection signal="timeout" from="Timers/HurtTimer" to="." method="OnHurtTimerTimeout"]
 
 [editable path="HitboxPivot/SwordHitbox"]
-
 [editable path="Hurtbox"]

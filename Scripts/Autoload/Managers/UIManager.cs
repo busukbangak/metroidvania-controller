@@ -12,9 +12,12 @@ public class UIManager : Node
     public override void _Ready()
     {
         _ui = GetNode<Node>("/root/UI");
+
+        Add(nameof(Constants.Screens.DEBUG_OVERLAY), Constants.Screens.DEBUG_OVERLAY);
+        Add(nameof(PauseMenu), Constants.Screens.PAUSE_MENU);
     }
 
-    public static Node Add(string id, String scenePath)
+    public static Node Add(string id, string scenePath)
     {
         PackedScene newPackedScene = (PackedScene)GD.Load(scenePath);
         return Add(id, newPackedScene.Instance());

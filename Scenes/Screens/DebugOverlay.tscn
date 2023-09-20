@@ -1,17 +1,11 @@
 [gd_scene format=2]
 
-[node name="DebugOverlay" type="CanvasLayer" groups=[
-"Screen",
-]]
+[node name="DebugOverlay" type="CanvasLayer" groups=["Screen"]]
 layer = 2
 
 [node name="Container" type="Control" parent="."]
-visible = false
 margin_right = 40.0
 margin_bottom = 40.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Label" type="Label" parent="Container"]
 margin_right = 40.0

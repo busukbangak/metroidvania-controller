@@ -151,8 +151,8 @@ public class Player : KinematicBody2D
         StateMachine.Change("idle");
 
 
-        DebugManager.Add("state", this, "ToStringPlayerState", true);
-        DebugManager.Add("ceailing", this, "IsCollidingWithCeiling", true);
+        DebugManager.Add("state", this, nameof(ToStringPlayerState), true);
+        DebugManager.Add("ceiling", this, nameof(IsCollidingWithCeiling), true);
     }
 
     public override void _PhysicsProcess(float delta)
@@ -332,12 +332,12 @@ public class Player : KinematicBody2D
 
     }
 
-    public Boolean IsPlayerOnFloor()
+    public bool IsPlayerOnFloor()
     {
         return IsOnFloor();
     }
 
-    public String ToStringPlayerState()
+    public string ToStringPlayerState()
     {
         return StateMachine.CurrentState.ToString();
     }

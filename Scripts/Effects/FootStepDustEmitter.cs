@@ -9,7 +9,7 @@ public class FootStepDustEmitter : Particles2D
     public override void _Ready()
     {
         var timer = GetTree().CreateTimer(1.5f);
-        timer.Connect("timeout", this, "OnTimeOut");
+        timer.Connect("timeout", this, nameof(OnTimeOut));
 
     }
 

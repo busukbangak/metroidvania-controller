@@ -1,5 +1,3 @@
 [gd_scene format=2]
 
-[node name="LoadingScreen" type="CanvasLayer" groups=[
-"Screen",
-]]
+[node name="LoadingScreen" type="CanvasLayer" groups=["Screen"]]

@@ -14,27 +14,12 @@ public class WorldManager : Node
         Viewport root = GetTree().Root;
         var child = root.GetChild(root.GetChildCount() - 1);
 
-        // Start default scene, if Game is started with main scene, else reparent other scene to world
-        if (child.Name == "World")
-        {
-            World = child;
-            ChangeWorldSpace(Constants.Screens.MAIN_MENU);
-        }
-        else
-        {
-            root.CallDeferred("remove_child", child);
+        World = child;
 
-            PackedScene packedWorldScene = (PackedScene)GD.Load("res://Scenes/World.tscn");
-
-            World = (Node)packedWorldScene.Instance();
-
-            root.CallDeferred("add_child", World);
-
-            World.CallDeferred("add_child", child);
-        }
+        ChangeWorldSpace(Constants.Maps.GRASS_1);
     }
 
-    public static void ChangeWorldSpace(String worldSpaceScenePath)
+    public static void ChangeWorldSpace(string worldSpaceScenePath)
     {
 
         // Load a new scene.

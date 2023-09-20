@@ -5,10 +5,10 @@ using System.Collections.Generic;
 public class DebugStat
 {
     public Godot.Object StatObject;
-    public String Reference;
-    public Boolean IsMethod;
+    public string Reference;
+    public bool IsMethod;
 
-    public DebugStat(Godot.Object statObject, String reference, Boolean isMethod)
+    public DebugStat(Godot.Object statObject, string reference, bool isMethod)
     {
         StatObject = statObject;
         Reference = reference;
@@ -18,29 +18,24 @@ public class DebugStat
 
 public class DebugManager : Node
 {
-    public static Boolean IsDebugging = false;
+    public static bool IsDebugging;
 
-    public static Dictionary<String, DebugStat> Stats = new Dictionary<String, DebugStat>();
+    public static Dictionary<string, DebugStat> Stats = new Dictionary<string, DebugStat>();
 
     public override void _Ready()
     {
+        Add("FPS", this, nameof(GetFPS), true);
+        Add("Static memory", this, nameof(GetStaticMemoryUsage), true);
 
-        UIManager.Add("debug", Constants.Screens.DEBUG_OVERLAY);
-
-        DebugManager.Add("FPS", this, "GetFPS", true);
-        DebugManager.Add("Static memory", this, "GetStaticMemoryUsage", true);
-
+        IsDebugging = UIManager.GetUI(nameof(Constants.Screens.DEBUG_OVERLAY)).GetNode<Control>("Container").Visible;
     }
-
-
 
     public override void _Process(float delta)
     {
-
         if (Input.IsActionJustPressed("debug"))
         {
-            IsDebugging = !IsDebugging;
-            UIManager.GetUI("debug").GetNode<Control>("Container").Visible = !UIManager.GetUI("debug").GetNode<Control>("Container").Visible;
+            IsDebugging = UIManager.GetUI(nameof(Constants.Screens.DEBUG_OVERLAY)).GetNode<Control>("Container").Visible;
+            UIManager.GetUI(nameof(Constants.Screens.DEBUG_OVERLAY)).GetNode<Control>("Container").Visible = !UIManager.GetUI(nameof(Constants.Screens.DEBUG_OVERLAY)).GetNode<Control>("Container").Visible;
         }
 
         // Update debugging values
@@ -48,15 +43,14 @@ public class DebugManager : Node
         {
             UpdateDebugValues();
         }
-
     }
 
     public static void UpdateDebugValues()
     {
-        String labelText = "";
+        string labelText = "";
         foreach (KeyValuePair<string, DebugStat> stat in Stats)
         {
-            System.Object value;
+            object value;
             if (stat.Value.StatObject != null && WeakRef(stat.Value.StatObject)?.GetRef() != null)
             {
                 if (stat.Value.IsMethod)
@@ -74,10 +68,10 @@ public class DebugManager : Node
 
         }
 
-        UIManager.GetUI("debug").GetNode<Label>("Container/Label").Text = labelText;
+        UIManager.GetUI(nameof(Constants.Screens.DEBUG_OVERLAY)).GetNode<Label>("Container/Label").Text = labelText;
     }
 
-    public static void Add(String name, Godot.Object statObject = null, String reference = null, Boolean isMethod = false)
+    public static void Add(string name, Godot.Object statObject = null, string reference = null, bool isMethod = false)
     {
         Stats.Add(name, new DebugStat(statObject, reference, isMethod));
     }
@@ -87,7 +81,7 @@ public class DebugManager : Node
 
     }
 
-    public String GetStaticMemoryUsage()
+    public string GetStaticMemoryUsage()
     {
         string[] sizes = { "B", "KB", "MB", "GB", "TB" };
         double len = OS.GetStaticMemoryUsage();
@@ -100,7 +94,7 @@ public class DebugManager : Node
 
         // Adjust the format string to your preferences. For example "{0:0.#}{1}" would
         // show a single decimal place, and no space.
-        return String.Format("{0:0.##} {1}", len, sizes[order]);
+        return string.Format("{0:0.##} {1}", len, sizes[order]);
     }
 
     public float GetFPS()
