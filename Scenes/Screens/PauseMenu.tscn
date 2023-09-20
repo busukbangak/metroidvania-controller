@@ -1,6 +1,5 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Fonts/shicarego.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Scripts/Screens/PauseMenu.cs" type="Script" id=2]
 
 [node name="PauseMenu" type="CanvasLayer" groups=["Screen"]]
@@ -31,9 +30,8 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="PauseMenuContainer/CenterContainer"]
-margin_left = 116.0
-margin_top = 82.0
-margin_right = 204.0
+margin_left = 117.0
+margin_top = 83.0
+margin_right = 202.0
 margin_bottom = 97.0
-custom_fonts/font = ExtResource( 1 )
 text = "game paused"
