@@ -2,8 +2,8 @@
 Prototype showcasing a 2D Platformer controller using a finite statemachine in Godot C#.
 
 ## Preview
-![preview](preview.png)
-
+![preview](preview.gif)
+![preview](preview.webm)
 ## Features
 * Idle
 * Walk
