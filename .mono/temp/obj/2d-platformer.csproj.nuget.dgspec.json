@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\playground\\Playground.csproj": {}
+    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\playground\\Playground.csproj": {
+    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\playground\\Playground.csproj",
-        "projectName": "Playground",
-        "projectPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\playground\\Playground.csproj",
+        "projectUniqueName": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj",
+        "projectName": "2d-platformer",
+        "projectPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj",
         "packagesPath": "C:\\Users\\awanali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\playground\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\awanali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

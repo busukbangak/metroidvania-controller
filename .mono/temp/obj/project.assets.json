@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\short-quest-metroidvania.csproj",
-      "projectName": "short-quest-metroidvania",
-      "projectPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\short-quest-metroidvania.csproj",
+      "projectUniqueName": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj",
+      "projectName": "2d-platformer",
+      "projectPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj",
       "packagesPath": "C:\\Users\\awanali\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\.mono\\temp\\obj\\",
       "projectStyle": "PackageReference",

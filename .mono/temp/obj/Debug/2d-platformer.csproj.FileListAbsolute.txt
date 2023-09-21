@@ -1,0 +1,10 @@
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\bin\Debug\2d-platformer.deps.json
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\bin\Debug\2d-platformer.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\bin\Debug\2d-platformer.pdb
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\Debug\2d-platformer.csproj.AssemblyReference.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\Debug\2d-platformer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\Debug\2d-platformer.csproj.CoreCompileInputs.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\Debug\2d-platformer.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\Debug\refint\2d-platformer.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\Debug\2d-platformer.pdb
+C:\Users\awanali\Workspace\Code Workspace\projects\2d-platformer\.mono\temp\obj\Debug\ref\2d-platformer.dll

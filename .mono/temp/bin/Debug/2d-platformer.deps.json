@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Playground/1.0.0": {
+      "2d-platformer/1.0.0": {
         "runtime": {
-          "Playground.dll": {}
+          "2d-platformer.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Playground/1.0.0": {
+    "2d-platformer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

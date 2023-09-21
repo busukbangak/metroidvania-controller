@@ -111,7 +111,7 @@ block={
 
 [mono]
 
-project/assembly_name="short-quest-metroidvania"
+project/assembly_name="2d-platformer"
 
 [rendering]
 

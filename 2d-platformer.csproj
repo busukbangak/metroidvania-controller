@@ -1,9 +1,9 @@
-﻿<Project Sdk="Godot.NET.Sdk/3.2.3">
+﻿<Project Sdk="Godot.NET.Sdk/3.3.0">
   <PropertyGroup>
     <ProjectGuid>{29309DDC-256C-4285-BCD3-AEE44FAE5837}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>short-quest-metroidvania</RootNamespace>
-    <AssemblyName>short-quest-metroidvania</AssemblyName>
+    <RootNamespace>2d-platformer</RootNamespace>
+    <AssemblyName>2d-platformer</AssemblyName>
     <GodotProjectGeneratorVersion>1.0.0.0</GodotProjectGeneratorVersion>
     <TargetFramework>net500</TargetFramework>
     <!--The following properties were overriden during migration to prevent errors.
@@ -35,7 +35,6 @@
     <Compile Include="Scripts\Characters\Player\States\PlayerIdleState.cs" />
     <Compile Include="Scripts\Characters\Player\States\PlayerJumpState.cs" />
     <Compile Include="Scripts\Autoload\Globals\Constants.cs" />
-    <Compile Include="Scripts\Autoload\Managers\AudioManager.cs" />
     <Compile Include="Scripts\Autoload\Managers\UIManager.cs" />
     <Compile Include="Scripts\Autoload\Managers\WorldManager.cs" />
     <Compile Include="Scripts\Characters\Player\Player.cs" />
@@ -49,8 +48,6 @@
     <Compile Include="Scripts\Characters\Slime\Slime.cs" />
     <Compile Include="Scripts\Effects\FootStepDustEmitter.cs" />
     <Compile Include="Scripts\Objects\Arrow.cs" />
-    <Compile Include="Scripts\Screens\ExitScreen.cs" />
-    <Compile Include="Scripts\Screens\MainMenu.cs" />
     <Compile Include="Scripts\Screens\PauseMenu.cs" />
     <Compile Include="Scripts\Shared\StateMachine\State.cs" />
     <Compile Include="Scripts\Shared\StateMachine\StateMachine.cs" />

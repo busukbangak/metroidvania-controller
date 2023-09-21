@@ -7,7 +7,6 @@
     "**/.DS_Store": true,
     "**/Properties": true,
     "**/.import": true,
-    "**/.mono": true,
     "**/._*": true,
     ".vscode": true,
     "Models": true,
