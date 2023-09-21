@@ -326,7 +326,7 @@ cast_to = Vector2( 5, 0 )
 [node name="CeilingRaycast" type="RayCast2D" parent="Raycasts"]
 position = Vector2( 0, -5 )
 enabled = true
-cast_to = Vector2( 0, -5 )
+cast_to = Vector2( 0, -10 )
 
 [node name="Timers" type="Node2D" parent="."]
 
