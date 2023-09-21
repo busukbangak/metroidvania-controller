@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Sprites/Environments/Jungle Asset Pack/jungle tileset/jungle tileset.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/Characters/Player/Player.tscn" type="PackedScene" id=2]
@@ -8,6 +8,19 @@
 [ext_resource path="res://Sprites/Environments/Jungle Asset Pack/parallax background/plx-4.png" type="Texture" id=6]
 [ext_resource path="res://Sprites/Environments/Jungle Asset Pack/parallax background/plx-3.png" type="Texture" id=7]
 [ext_resource path="res://Sprites/Environments/Jungle Asset Pack/parallax background/plx-1.png" type="Texture" id=8]
+
+[sub_resource type="Environment" id=16]
+background_mode = 4
+dof_blur_far_distance = 0.01
+dof_blur_near_distance = 0.94
+dof_blur_near_transition = 0.06
+dof_blur_near_quality = 2
+glow_enabled = true
+glow_intensity = 0.5
+glow_bloom = 0.15
+glow_blend_mode = 0
+glow_bicubic_upscale = true
+glow_high_quality = true
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 16, 16, 0, 16, 0, 2, 16, 2.0625 )
@@ -406,6 +419,9 @@ points = PoolVector2Array( 16, 16, 1, 16, 1, 1.9375, 16, 1.9375 )
 [node name="Grass_1" type="Node2D"]
 position = Vector2( 2, 0 )
 
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 16 )
+
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 scroll_base_scale = Vector2( 1, 0 )
 
@@ -453,7 +469,7 @@ centered = false
 region_rect = Rect2( 0, 0, 768, 216 )
 
 [node name="Slime" parent="." instance=ExtResource( 3 )]
-position = Vector2( 96, 54 )
+position = Vector2( -40, 41 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( -14, 10 )

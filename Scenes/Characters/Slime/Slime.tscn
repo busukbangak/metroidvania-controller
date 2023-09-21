@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://Sprites/Characters/Slime/slime-move-3.png" type="Texture" id=1]
 [ext_resource path="res://Sprites/Characters/Slime/slime-idle-3.png" type="Texture" id=2]
@@ -23,20 +23,34 @@
 [ext_resource path="res://Scripts/Characters/Slime/Slime.cs" type="Script" id=21]
 [ext_resource path="res://Scenes/Shared/Hitbox.tscn" type="PackedScene" id=22]
 
+[sub_resource type="Shader" id=5]
+code = "shader_type canvas_item;
+
+uniform float hit_opacity = 0;
+
+void fragment(){
+ COLOR.rgb = texture(TEXTURE, UV).rgb * (1.0 - hit_opacity) + vec3(1,1,1) * hit_opacity; 
+ COLOR.a = texture(TEXTURE, UV).a ;
+}"
+
+[sub_resource type="ShaderMaterial" id=6]
+shader = SubResource( 5 )
+shader_param/hit_opacity = 0.0
+
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 11 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
-"loop": true,
+"loop": false,
 "name": "attack",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ), ExtResource( 10 ), ExtResource( 14 ) ],
-"loop": true,
+"loop": false,
 "name": "die",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 12 ) ],
-"loop": true,
+"loop": false,
 "name": "hurt",
 "speed": 5.0
 }, {
@@ -65,13 +79,14 @@ collision_layer = 0
 script = ExtResource( 21 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+material = SubResource( 6 )
 position = Vector2( 0, 0.400452 )
 frames = SubResource( 1 )
 animation = "idle"
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2( 0, 5.13348 )
 shape = SubResource( 2 )
 
@@ -83,10 +98,6 @@ collision_layer = 8
 position = Vector2( 0, 5 )
 shape = SubResource( 3 )
 
-[node name="HurtTimer" type="Timer" parent="."]
-wait_time = 0.15
-one_shot = true
-
 [node name="Hitbox" parent="." instance=ExtResource( 22 )]
 collision_mask = 4
 
@@ -94,8 +105,18 @@ collision_mask = 4
 position = Vector2( -0.533936, 5.07239 )
 shape = SubResource( 4 )
 
+[node name="HurtTimer" type="Timer" parent="."]
+wait_time = 0.15
+one_shot = true
+
+[node name="MoveTimer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[connection signal="animation_finished" from="AnimatedSprite" to="." method="OnAnimatedSpriteAnimationFinished"]
 [connection signal="area_entered" from="Hurtbox" to="." method="OnHurtboxAreaEntered"]
 [connection signal="timeout" from="HurtTimer" to="." method="OnHurtTimerTimeout"]
+[connection signal="timeout" from="MoveTimer" to="." method="OnMoveTimerTimeout"]
 
 [editable path="Hurtbox"]
 [editable path="Hitbox"]
