@@ -255,7 +255,6 @@ radius = 4.60002
 height = 16.9047
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 0.141418, -0.141418 )
 collision_layer = 2
 script = ExtResource( 49 )
 __meta__ = {
@@ -300,6 +299,7 @@ shape = SubResource( 5 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
+process_mode = 0
 limit_smoothed = true
 drag_margin_h_enabled = true
 drag_margin_v_enabled = true

@@ -30,8 +30,8 @@ UI="*res://Scenes/Autoload/UI.tscn"
 
 [display]
 
-window/size/width=320
-window/size/height=180
+window/size/width=384
+window/size/height=216
 window/size/test_width=1920
 window/size/test_height=1080
 window/dpi/allow_hidpi=true

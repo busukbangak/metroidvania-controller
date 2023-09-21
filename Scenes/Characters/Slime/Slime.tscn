@@ -25,19 +25,9 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 18 ), ExtResource( 17 ), ExtResource( 2 ) ],
+"frames": [ ExtResource( 11 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
 "loop": true,
-"name": "idle",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 12 ) ],
-"loop": true,
-"name": "hurt",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 13 ), ExtResource( 19 ), ExtResource( 15 ), ExtResource( 1 ) ],
-"loop": true,
-"name": "move",
+"name": "attack",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ), ExtResource( 10 ), ExtResource( 14 ) ],
@@ -45,9 +35,19 @@ animations = [ {
 "name": "die",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 11 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 12 ) ],
 "loop": true,
-"name": "attack",
+"name": "hurt",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 17 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 19 ), ExtResource( 15 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "move",
 "speed": 5.0
 } ]
 
@@ -61,7 +61,6 @@ extents = Vector2( 10.2657, 7.18191 )
 extents = Vector2( 10, 6.79816 )
 
 [node name="Slime" type="KinematicBody2D"]
-scale = Vector2( 0.5, 0.5 )
 collision_layer = 0
 script = ExtResource( 21 )
 
@@ -94,9 +93,9 @@ collision_mask = 4
 [node name="CollisionShape2D" parent="Hitbox" index="0"]
 position = Vector2( -0.533936, 5.07239 )
 shape = SubResource( 4 )
+
 [connection signal="area_entered" from="Hurtbox" to="." method="OnHurtboxAreaEntered"]
 [connection signal="timeout" from="HurtTimer" to="." method="OnHurtTimerTimeout"]
 
 [editable path="Hurtbox"]
-
 [editable path="Hitbox"]
