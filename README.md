@@ -2,7 +2,7 @@
 Prototype showcasing a 2D Platformer controller using a finite statemachine in Godot C#.
 
 ## Preview
-![preview](2d-metroidvania.gif)
+![preview](2d-metroidvania.mp4)
 
 ## Features
 * Idle
@@ -17,10 +17,14 @@ Prototype showcasing a 2D Platformer controller using a finite statemachine in G
 * Hanging
 * BowAttack
     * AirBowAttack
-* SwordAttack
+* SwordAttack with Combos
     * AirSwordAttack
 * Hurt (Not implemented yet)
 * Dash
 * Dead (Not Implemented yet)
 * Dodge (Animation only)
 * Block (Animation only)
+* Coyote Timer
+* Jump Buffer
+* Simple Enemy
+

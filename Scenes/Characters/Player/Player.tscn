@@ -277,7 +277,6 @@ shape = SubResource( 3 )
 disabled = true
 
 [node name="HitboxPivot" type="Position2D" parent="."]
-visible = false
 position = Vector2( 0, 4.4 )
 
 [node name="SwordHitbox" parent="HitboxPivot" instance=ExtResource( 98 )]
