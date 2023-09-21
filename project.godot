@@ -14,7 +14,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="short-quest-metroidvania"
+config/name="2d-platformer"
 run/main_scene="res://Scenes/World.tscn"
 config/icon="res://icon.png"
 
