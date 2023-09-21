@@ -2,7 +2,7 @@
 Prototype showcasing a 2D Platformer controller using a finite statemachine in Godot C#.
 
 ## Preview
-![preview](2d-metroidvania.gif)
+![preview](2d-metroidvania.png)
 
 ## Features
 * Idle
