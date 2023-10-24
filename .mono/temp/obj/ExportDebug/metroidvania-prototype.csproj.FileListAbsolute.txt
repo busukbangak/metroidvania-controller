@@ -1,0 +1,9 @@
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\bin\ExportDebug\metroidvania-prototype.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\bin\ExportDebug\metroidvania-prototype.pdb
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\obj\ExportDebug\metroidvania-prototype.csproj.AssemblyReference.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\obj\ExportDebug\metroidvania-prototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\obj\ExportDebug\metroidvania-prototype.AssemblyInfoInputs.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\obj\ExportDebug\metroidvania-prototype.AssemblyInfo.cs
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\obj\ExportDebug\metroidvania-prototype.csproj.CoreCompileInputs.cache
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\obj\ExportDebug\metroidvania-prototype.dll
+C:\Users\awanali\Workspace\Code Workspace\projects\metroidvania-prototype\.mono\temp\obj\ExportDebug\metroidvania-prototype.pdb
