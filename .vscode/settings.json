@@ -19,7 +19,6 @@
     "Shaders": true,
     "Scenes": true,
     "logs": true,
-    "Scenes\\Characters\\Player": true,
-    ".mono": true
+    "Scenes\\Characters\\Player": true
   }
 }

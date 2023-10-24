@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj": {}
+    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\metroidvania-prototype\\metroidvania-prototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj": {
+    "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\metroidvania-prototype\\metroidvania-prototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj",
-        "projectName": "2d-platformer",
-        "projectPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\2d-platformer.csproj",
+        "projectUniqueName": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\metroidvania-prototype\\metroidvania-prototype.csproj",
+        "projectName": "metroidvania-prototype",
+        "projectPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\metroidvania-prototype\\metroidvania-prototype.csproj",
         "packagesPath": "C:\\Users\\awanali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\2d-platformer\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\awanali\\Workspace\\Code Workspace\\projects\\metroidvania-prototype\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\awanali\\AppData\\Roaming\\NuGet\\NuGet.Config"
