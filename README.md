@@ -1,5 +1,5 @@
 ## Description
-Prototype showcasing a 2D Platformer controller using a finite statemachine in Godot C#.
+Prototype showcasing a 2D Platformer controller using a finite statemachine in Godot C#. 
 
 ## Preview
 ![preview](preview.gif)
@@ -12,6 +12,7 @@ Prototype showcasing a 2D Platformer controller using a finite statemachine in G
     * WallJump
     * AirJump
 * Fall
+* Slide
 * WallSlide
 * Crouch
 * Hanging
@@ -26,5 +27,5 @@ Prototype showcasing a 2D Platformer controller using a finite statemachine in G
 * Block (Animation only)
 * Coyote Timer
 * Jump Buffer
-* Simple Enemy
+* Simple Enemy (cant damage player yet)
 
