@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metroidvania-prototype", "metroidvania-prototype.csproj", "{29309DDC-256C-4285-BCD3-AEE44FAE5837}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metroidvania-controller", "metroidvania-controller.csproj", "{29309DDC-256C-4285-BCD3-AEE44FAE5837}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,7 +14,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="metroidvania-prototype"
+config/name="metroidvania-controller"
 run/main_scene="res://Scenes/World.tscn"
 config/icon="res://icon.png"
 config/tags=PoolStringArray( "awanali", "web" )
@@ -116,7 +116,7 @@ block={
 
 [mono]
 
-project/assembly_name="metroidvania-prototype"
+project/assembly_name="metroidvania-controller"
 
 [rendering]
 
